@@ -1,0 +1,25 @@
+package com.service_booking.controller;
+
+@RestController
+@RequestMapping("/api/services")
+@CrossOrigin("*")
+public class ServiceController {
+
+    @Autowired
+    private ServiceService serviceService;
+
+    @PostMapping("/add")
+    public Service addService(@RequestBody Service service,
+                              @RequestParam Long providerId) {
+
+        Provider provider = new Provider();
+        provider.setId(providerId);
+
+        return serviceService.addService(service, provider);
+    }
+
+    @GetMapping("/search")
+    public List<Service> search(@RequestParam String keyword) {
+        return serviceService.searchService(keyword);
+    }
+}

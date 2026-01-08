@@ -1,0 +1,29 @@
+package com.service_booking.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import com.service_booking.entity.Services;
+import com.service_booking.entity.Provider;
+import com.service_booking.repository.ServiceRepository;
+
+@Service
+public class ServiceService {
+
+    @Autowired
+    private ServiceRepository serviceRepository;
+
+    public Services addService(Services service, Provider provider) {
+        service.setProvider(provider);
+        return serviceRepository.save(service);
+    }
+
+    public List<Service> getServicesByProvider(Provider provider) {
+        return serviceRepository.findByProvider(provider);
+    }
+
+    public List<Service> searchService(String keyword) {
+        return serviceRepository.findByServiceNameContainingIgnoreCase(keyword);
+    }
+}

@@ -1,0 +1,10 @@
+package com.service_booking.dto;
+
+public class ProviderRequestDTO {
+
+    private String providerName;
+    private String contact;
+    private String city;
+    private Long userId;
+
+}

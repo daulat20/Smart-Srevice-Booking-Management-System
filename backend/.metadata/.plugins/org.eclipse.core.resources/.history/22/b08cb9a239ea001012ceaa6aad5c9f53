@@ -1,0 +1,32 @@
+package com.service_booking.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.service_booking.entity.Booking;
+import com.service_booking.entity.Payment;
+import com.service_booking.service.PaymentService;
+
+@RestController
+@RequestMapping("/api/payments")
+@CrossOrigin("*")
+public class ReviewController {
+
+    @Autowired
+    private PaymentService paymentService;
+
+    @PostMapping("/pay")
+    public Payment pay(@RequestParam Long bookingId,
+                       @RequestParam double amount,
+                       @RequestParam String mode) {
+
+        Booking booking = new Booking();
+        booking.setId(bookingId);
+
+        return paymentService.makePayment(booking, amount, mode);
+    }
+}

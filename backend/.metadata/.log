@@ -1,0 +1,1421 @@
+!SESSION 2026-01-07 17:54:04.211 -----------------------------------------------
+eclipse.buildId=4.38.0.20251204-0849
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+This is a continuation of log file D:\Smart Service Booking & Manegment System\backend\.metadata\.bak_1.log
+Created Time: 2026-01-07 19:39:48.168
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:39:48.168
+!MESSAGE 19:39:48.164 [pool-2-thread-121] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:39:48.170
+!MESSAGE 19:39:48.169 [pool-2-thread-123] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 19:39:48.234
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 19:39:48.234
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 19:39:48.235
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 19:39:48.235
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:39:48.471
+!MESSAGE 19:39:48.305 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file changed event: [file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/target/classes/application.properties, file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/target/classes/com/service_booking/controller/RoleController.class]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:39:48.817
+!MESSAGE 19:39:48.804 [pool-5-thread-1] INFO  o.s.i.v.b.j.utils.SpringIndexerJava - Finished scanning affected files [D:\Smart Service Booking & Manegment System\backend\Smart_Service_Booking_and_Manegment_System\src\main\java\com\service_booking\controller\RoleController.java]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:39:48.955
+!MESSAGE 19:39:48.954 [pool-4-thread-43] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:39:58.176
+!MESSAGE 19:39:48.961 [pool-2-thread-123] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:42:58.986
+!MESSAGE 19:42:58.985 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/service/RoleService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:42:59.080
+!MESSAGE 19:42:59.080 [pool-4-thread-44] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/service/RoleService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:42:59.141
+!MESSAGE 19:42:59.139 [pool-2-thread-129] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/service/RoleService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:42:59.489
+!MESSAGE 19:42:59.145 [pool-2-thread-129] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/service/RoleService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:00.552
+!MESSAGE 19:42:59.489 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/service/RoleService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:00.674
+!MESSAGE 19:43:00.672 [pool-2-thread-129] INFO  o.s.i.v.boot.app.SpringSymbolIndex - Update document [didSave event]: file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/service/RoleService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:00.681
+!MESSAGE 19:43:00.680 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file changed event: [file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/service/RoleService.java]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:00.686
+!MESSAGE 19:43:00.685 [pool-2-thread-129] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/service/RoleService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:00.687
+!MESSAGE 19:43:00.687 [pool-2-thread-127] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/service/RoleService.java
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 19:43:01.232
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 19:43:01.233
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 19:43:01.234
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 19:43:01.234
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:01.422
+!MESSAGE 19:43:01.308 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file changed event: [file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/target/classes/application.properties, file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/target/classes/com/service_booking/controller/RoleController.class, file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/target/classes/com/service_booking/service/RoleService.class]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:01.827
+!MESSAGE 19:43:01.688 [pool-5-thread-1] INFO  o.s.i.v.b.j.utils.SpringIndexerJava - Finished scanning affected files [D:\Smart Service Booking & Manegment System\backend\Smart_Service_Booking_and_Manegment_System\src\main\java\com\service_booking\service\RoleService.java]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:01.835
+!MESSAGE 19:43:01.828 [pool-4-thread-44] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Creating name env for project 'Smart_Service_Booking_and_Manegment_System'
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:01.965
+!MESSAGE 19:43:01.838 [pool-2-thread-130] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:01.986
+!MESSAGE 19:43:01.985 [pool-4-thread-45] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:01.994
+!MESSAGE 19:43:01.993 [pool-4-thread-44] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/service/RoleService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:04.437
+!MESSAGE 19:43:04.436 [pool-2-thread-127] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:04.442
+!MESSAGE 19:43:04.441 [pool-2-thread-131] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:12.184
+!MESSAGE 19:43:12.183 [pool-4-thread-44] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:12.347
+!MESSAGE 19:43:12.347 [pool-2-thread-131] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:12.351
+!MESSAGE 19:43:12.351 [pool-2-thread-127] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:12.624
+!MESSAGE 19:43:12.623 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:13.466
+!MESSAGE 19:43:12.646 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:13.479
+!MESSAGE 19:43:13.476 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - Update document [file changed]: file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 19:43:13.870
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 19:43:13.871
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 19:43:13.871
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 19:43:13.872
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:13.943
+!MESSAGE 19:43:13.939 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file changed event: [file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/target/classes/application.properties, file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/target/classes/com/service_booking/controller/RoleController.class]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:14.524
+!MESSAGE 19:43:14.066 [ForkJoinPool.commonPool-worker-38] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Removing and cleaning up name env for project file:/D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:14.750
+!MESSAGE 19:43:14.749 [pool-4-thread-44] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:15.537
+!MESSAGE 19:43:15.536 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 24
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:15.537
+!MESSAGE 19:43:15.537 [pool-7-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:15.541
+!MESSAGE 19:43:15.539 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:15.542
+!MESSAGE 19:43:15.541 [pool-7-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:15.562
+!MESSAGE 19:43:15.561 [pool-4-thread-45] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:15.565
+!MESSAGE 19:43:15.562 [pool-4-thread-44] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:15.670
+!MESSAGE 19:43:15.667 [pool-2-thread-131] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:15.674
+!MESSAGE 19:43:15.671 [pool-2-thread-127] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:17.919
+!MESSAGE 19:43:16.050 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:17.920
+!MESSAGE 19:43:17.857 [pool-2-thread-131] INFO  o.s.i.v.boot.app.SpringSymbolIndex - Update document [didSave event]: file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:17.930
+!MESSAGE 19:43:17.928 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file changed event: [file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 19:43:18.111
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 19:43:18.111
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 19:43:18.112
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 19:43:18.112
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:18.255
+!MESSAGE 19:43:18.246 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file changed event: [file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/target/classes/application.properties, file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/target/classes/com/service_booking/controller/RoleController.class]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:18.267
+!MESSAGE 19:43:18.267 [pool-2-thread-127] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:18.534
+!MESSAGE 19:43:18.359 [ForkJoinPool.commonPool-worker-38] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Removing and cleaning up name env for project file:/D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:18.534
+!MESSAGE 19:43:18.534 [pool-7-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:18.648
+!MESSAGE 19:43:18.648 [pool-4-thread-44] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:18.711
+!MESSAGE 19:43:18.710 [pool-5-thread-1] INFO  o.s.i.v.b.j.utils.SpringIndexerJava - Start scanning affected files for types [com.service_booking.controller.RoleController]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:18.714
+!MESSAGE 19:43:18.712 [pool-2-thread-131] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:19.082
+!MESSAGE 19:43:19.063 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:19.432
+!MESSAGE 19:43:19.403 [pool-2-thread-131] INFO  o.s.i.v.boot.app.SpringSymbolIndex - Update document [didSave event]: file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:19.444
+!MESSAGE 19:43:19.442 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file changed event: [file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:20.056
+!MESSAGE 19:43:20.053 [pool-2-thread-131] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:20.064
+!MESSAGE 19:43:20.062 [pool-2-thread-127] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 19:43:20.445
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 19:43:20.446
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 19:43:20.447
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 19:43:20.447
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:20.548
+!MESSAGE 19:43:20.542 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file changed event: [file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/target/classes/application.properties, file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/target/classes/com/service_booking/controller/RoleController.class]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:21.040
+!MESSAGE 19:43:20.699 [pool-5-thread-1] INFO  o.s.i.v.b.i.c.IndexCacheOnDiscDeltaBased - compacting...
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:21.064
+!MESSAGE 19:43:21.063 [pool-4-thread-44] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:21.171
+!MESSAGE 19:43:21.171 [pool-5-thread-1] INFO  o.s.i.v.b.j.utils.SpringIndexerJava - Start scanning affected files for types [com.service_booking.controller.RoleController]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:21.319
+!MESSAGE 19:43:21.313 [pool-4-thread-44] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:21.320
+!MESSAGE 19:43:21.313 [pool-2-thread-127] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:31.413
+!MESSAGE 19:43:31.410 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:31.560
+!MESSAGE 19:43:31.559 [pool-4-thread-44] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:31.602
+!MESSAGE 19:43:31.601 [pool-2-thread-131] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:31.605
+!MESSAGE 19:43:31.605 [pool-2-thread-127] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:31.828
+!MESSAGE 19:43:31.827 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 28
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:31.843
+!MESSAGE 19:43:31.843 [pool-4-thread-44] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:32.106
+!MESSAGE 19:43:32.105 [pool-2-thread-131] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:32.106
+!MESSAGE 19:43:32.106 [pool-2-thread-127] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:32.337
+!MESSAGE 19:43:32.336 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:32.619
+!MESSAGE 19:43:32.364 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:32.630
+!MESSAGE 19:43:32.629 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file changed event: [file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:33.144
+!MESSAGE 19:43:33.140 [pool-5-thread-1] INFO  o.s.i.v.b.j.utils.SpringIndexerJava - Finished scanning affected files [D:\Smart Service Booking & Manegment System\backend\Smart_Service_Booking_and_Manegment_System\src\main\java\com\service_booking\controller\RoleController.java]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:33.145
+!MESSAGE 19:43:33.144 [pool-2-thread-127] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 19:43:33.779
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 19:43:33.780
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 19:43:33.781
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 19:43:33.783
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:33.882
+!MESSAGE 19:43:33.878 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file changed event: [file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/target/classes/application.properties, file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/target/classes/com/service_booking/controller/RoleController.class]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:34.361
+!MESSAGE 19:43:34.360 [pool-2-thread-131] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:34.504
+!MESSAGE 19:43:34.420 [pool-2-thread-129] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:34.505
+!MESSAGE 19:43:34.504 [pool-2-thread-129] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:34.510
+!MESSAGE 19:43:34.505 [pool-2-thread-131] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - hover computation done in 149ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:37.495
+!MESSAGE 19:43:37.495 [pool-2-thread-131] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/service/RoleService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:37.524
+!MESSAGE 19:43:37.523 [pool-4-thread-44] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/service/RoleService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:37.525
+!MESSAGE 19:43:37.524 [pool-2-thread-131] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/service/RoleService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:39.956
+!MESSAGE 19:43:39.955 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 3
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:40.002
+!MESSAGE 19:43:40.001 [pool-4-thread-44] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/service/RoleService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:40.255
+!MESSAGE 19:43:40.254 [pool-2-thread-127] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/service/RoleService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:40.257
+!MESSAGE 19:43:40.257 [pool-2-thread-131] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/service/RoleService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:40.475
+!MESSAGE 19:43:40.474 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/service/RoleService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:40.861
+!MESSAGE 19:43:40.477 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/service/RoleService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:40.866
+!MESSAGE 19:43:40.864 [pool-7-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/service/RoleService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:41.058
+!MESSAGE 19:43:41.057 [pool-4-thread-44] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/service/RoleService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:41.087
+!MESSAGE 19:43:41.087 [pool-2-thread-127] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/service/RoleService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:41.089
+!MESSAGE 19:43:41.089 [pool-2-thread-131] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/service/RoleService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:41.382
+!MESSAGE 19:43:41.381 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/service/RoleService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:41.564
+!MESSAGE 19:43:41.383 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/service/RoleService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:41.593
+!MESSAGE 19:43:41.581 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - Update document [file changed]: file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/service/RoleService.java
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 19:43:41.808
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 19:43:41.809
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 19:43:41.810
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 19:43:41.811
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:41.892
+!MESSAGE 19:43:41.888 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file changed event: [file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/target/classes/application.properties, file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/target/classes/com/service_booking/service/RoleService.class]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:42.187
+!MESSAGE 19:43:42.186 [pool-5-thread-1] INFO  o.s.i.v.b.j.utils.SpringIndexerJava - Start scanning affected files for types [com.service_booking.service.RoleService]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:42.479
+!MESSAGE 19:43:42.474 [pool-2-thread-131] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/service/RoleService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:42.626
+!MESSAGE 19:43:42.625 [pool-4-thread-44] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/service/RoleService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:45.616
+!MESSAGE 19:43:45.615 [pool-2-thread-127] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/SmartServiceBookingAndManegmentSystemApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:45.759
+!MESSAGE 19:43:45.759 [pool-4-thread-44] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/SmartServiceBookingAndManegmentSystemApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:46.041
+!MESSAGE 19:43:46.041 [pool-2-thread-127] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/service/RoleService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:43:46.045
+!MESSAGE 19:43:46.044 [pool-2-thread-131] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/service/RoleService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:44:00.130
+!MESSAGE 19:44:00.129 [pool-2-thread-127] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:44:00.131
+!MESSAGE 19:44:00.131 [pool-2-thread-131] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:44:00.132
+!MESSAGE 19:44:00.132 [pool-4-thread-44] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:44:00.152
+!MESSAGE 19:44:00.152 [pool-4-thread-44] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:44:00.153
+!MESSAGE 19:44:00.152 [pool-4-thread-44] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:44:00.154
+!MESSAGE 19:44:00.152 [pool-2-thread-131] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:44:00.154
+!MESSAGE 19:44:00.152 [pool-2-thread-131] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:44:00.154
+!MESSAGE 19:44:00.153 [pool-2-thread-127] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:44:00.160
+!MESSAGE 19:44:00.160 [pool-2-thread-127] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:44:00.416
+!MESSAGE 19:44:00.416 [pool-2-thread-127] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/SmartServiceBookingAndManegmentSystemApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:44:00.416
+!MESSAGE 19:44:00.416 [pool-2-thread-127] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/SmartServiceBookingAndManegmentSystemApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:44:00.418
+!MESSAGE 19:44:00.418 [pool-2-thread-127] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/SmartServiceBookingAndManegmentSystemApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:44:00.418
+!MESSAGE 19:44:00.418 [pool-2-thread-131] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/SmartServiceBookingAndManegmentSystemApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:44:00.419
+!MESSAGE 19:44:00.418 [pool-2-thread-131] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/SmartServiceBookingAndManegmentSystemApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:44:00.419
+!MESSAGE 19:44:00.418 [pool-2-thread-131] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/SmartServiceBookingAndManegmentSystemApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:44:01.965
+!MESSAGE 19:44:01.965 [pool-2-thread-131] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:44:01.966
+!MESSAGE 19:44:01.966 [pool-2-thread-131] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:44:01.966
+!MESSAGE 19:44:01.966 [pool-2-thread-131] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - hover computation done in 2ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:44:03.394
+!MESSAGE 19:44:03.394 [pool-2-thread-131] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:44:03.395
+!MESSAGE 19:44:03.394 [pool-2-thread-131] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:44:03.395
+!MESSAGE 19:44:03.394 [pool-2-thread-131] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:44:03.395
+!MESSAGE 19:44:03.394 [pool-2-thread-131] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - hover computation done in 2ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:44:06.695
+!MESSAGE 19:44:06.695 [pool-2-thread-131] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:44:06.696
+!MESSAGE 19:44:06.695 [pool-2-thread-131] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:44:06.696
+!MESSAGE 19:44:06.695 [pool-2-thread-131] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:44:06.697
+!MESSAGE 19:44:06.695 [pool-2-thread-131] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - hover computation done in 2ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:44:33.911
+!MESSAGE 19:44:33.908 [pool-13-thread-1] INFO  o.s.i.v.b.j.l.v.SpringProcessConnectorRemote - updating settings for remote processses to track - start
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:44:33.912
+!MESSAGE 19:44:33.910 [pool-13-thread-1] INFO  o.s.i.v.b.j.l.v.SpringProcessConnectorRemote - Removing RemoteSpringBootApp: RemoteBootAppData [jmxurl=service:jmx:rmi:///jndi/rmi://127.0.0.1:63987/jmxrmi, host=127.0.0.1, urlScheme=http, port=null, manualConnect=false, keepChecking=true, processId=2680, processName=com.service_booking.SmartServiceBookingAndManegmentSystemApplication. projectName=Smart_Service_Booking_and_Manegment_System]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:44:33.912
+!MESSAGE 19:44:33.910 [pool-13-thread-1] INFO  o.s.i.v.b.j.l.v.SpringProcessConnectorService - disconnect from process: service:jmx:rmi:///jndi/rmi://127.0.0.1:63987/jmxrmi
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:44:33.913
+!MESSAGE 19:44:33.911 [pool-13-thread-1] INFO  o.s.i.v.b.j.l.v.SpringProcessConnectorService - Disconnect from process: service:jmx:rmi:///jndi/rmi://127.0.0.1:63987/jmxrmi - retry no: 0
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:44:33.913
+!MESSAGE 19:44:33.911 [pool-13-thread-1] INFO  o.s.i.v.b.j.l.v.SpringProcessConnectorRemote - updating settings for remote processses to track - done
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:44:33.917
+!MESSAGE 19:44:33.917 [pool-6-thread-8] INFO  o.s.i.v.b.j.l.v.SpringProcessConnectorOverJMX - close JMX connection to: service:jmx:rmi:///jndi/rmi://127.0.0.1:63987/jmxrmi
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:02.913
+!MESSAGE 19:44:33.923 [pool-6-thread-8] ERROR o.s.i.v.b.j.l.v.SpringProcessConnectorOverJMX - error closing the JMX connection for: service:jmx:rmi:///jndi/rmi://127.0.0.1:63987/jmxrmi
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:02.914
+!MESSAGE java.rmi.ConnectException: Connection refused to host: localhost; nested exception is: 
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:02.915
+!MESSAGE 	java.net.ConnectException: Connection refused: connect
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:02.915
+!MESSAGE 	at java.rmi/sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:625)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:02.915
+!MESSAGE 	at java.rmi/sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:217)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:02.916
+!MESSAGE 	at java.rmi/sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:204)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:02.917
+!MESSAGE 	at java.rmi/sun.rmi.server.UnicastRef.invoke(UnicastRef.java:134)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:02.917
+!MESSAGE 	at jdk.remoteref/jdk.jmx.remote.internal.rmi.PRef.invoke(Unknown Source)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:02.917
+!MESSAGE 	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl_Stub.close(RMIConnectionImpl_Stub.java:151)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:02.918
+!MESSAGE 	at java.management.rmi/javax.management.remote.rmi.RMIConnector.close(RMIConnector.java:507)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:02.918
+!MESSAGE 	at java.management.rmi/javax.management.remote.rmi.RMIConnector.close(RMIConnector.java:447)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:02.918
+!MESSAGE 	at org.springframework.ide.vscode.boot.java.livehover.v2.SpringProcessConnectorOverJMX.disconnect(SpringProcessConnectorOverJMX.java:205)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:02.919
+!MESSAGE 	at org.springframework.ide.vscode.boot.java.livehover.v2.SpringProcessConnectorService.lambda$scheduleDisconnect$5(SpringProcessConnectorService.java:200)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:02.920
+!MESSAGE 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:02.920
+!MESSAGE 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:02.920
+!MESSAGE 	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:02.921
+!MESSAGE 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:02.922
+!MESSAGE 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:02.922
+!MESSAGE 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:02.922
+!MESSAGE Caused by: java.net.ConnectException: Connection refused: connect
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:02.923
+!MESSAGE 	at java.base/sun.nio.ch.Net.connect0(Native Method)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:02.923
+!MESSAGE 	at java.base/sun.nio.ch.Net.connect(Net.java:589)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:02.924
+!MESSAGE 	at java.base/sun.nio.ch.Net.connect(Net.java:578)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:02.924
+!MESSAGE 	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:02.925
+!MESSAGE 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:02.925
+!MESSAGE 	at java.base/java.net.Socket.connect(Socket.java:751)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:02.926
+!MESSAGE 	at java.base/java.net.Socket.connect(Socket.java:686)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:02.927
+!MESSAGE 	at java.base/java.net.Socket.<init>(Socket.java:555)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:02.928
+!MESSAGE 	at java.base/java.net.Socket.<init>(Socket.java:324)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:02.929
+!MESSAGE 	at java.rmi/sun.rmi.transport.tcp.TCPDirectSocketFactory.createSocket(TCPDirectSocketFactory.java:40)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:02.930
+!MESSAGE 	at java.rmi/sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:619)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:02.931
+!MESSAGE 	... 15 common frames omitted
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:02.974
+!MESSAGE 19:45:02.970 [pool-6-thread-2] INFO  o.s.i.v.b.j.l.v.SpringProcessConnectorService - Refreshing data from Spring process: service:jmx:rmi:///jndi/rmi://127.0.0.1:64291/jmxrmi - retry no: 0
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:03.882
+!MESSAGE 19:45:03.882 [pool-4-thread-46] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/entity/Role.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:03.911
+!MESSAGE 19:45:03.883 [pool-7-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/SmartServiceBookingAndManegmentSystemApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:03.911
+!MESSAGE 19:45:03.910 [pool-7-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/SmartServiceBookingAndManegmentSystemApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:03.936
+!MESSAGE 19:45:03.923 [pool-4-thread-46] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:03.970
+!MESSAGE 19:45:03.938 [pool-4-thread-46] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/service/RoleService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:30.916
+!MESSAGE 19:45:30.916 [pool-13-thread-1] INFO  o.s.i.v.b.j.l.v.SpringProcessConnectorRemote - updating settings for remote processses to track - start
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:30.918
+!MESSAGE 19:45:30.916 [pool-13-thread-1] INFO  o.s.i.v.b.j.l.v.SpringProcessConnectorRemote - Removing RemoteSpringBootApp: RemoteBootAppData [jmxurl=service:jmx:rmi:///jndi/rmi://127.0.0.1:64291/jmxrmi, host=127.0.0.1, urlScheme=http, port=null, manualConnect=false, keepChecking=true, processId=14328, processName=com.service_booking.SmartServiceBookingAndManegmentSystemApplication. projectName=Smart_Service_Booking_and_Manegment_System]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:30.918
+!MESSAGE 19:45:30.916 [pool-13-thread-1] INFO  o.s.i.v.b.j.l.v.SpringProcessConnectorService - disconnect from process: service:jmx:rmi:///jndi/rmi://127.0.0.1:64291/jmxrmi
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:30.918
+!MESSAGE 19:45:30.917 [pool-13-thread-1] INFO  o.s.i.v.b.j.l.v.SpringProcessConnectorService - Disconnect from process: service:jmx:rmi:///jndi/rmi://127.0.0.1:64291/jmxrmi - retry no: 0
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:30.919
+!MESSAGE 19:45:30.917 [pool-13-thread-1] INFO  o.s.i.v.b.j.l.v.SpringProcessConnectorRemote - updating settings for remote processses to track - done
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:30.920
+!MESSAGE 19:45:30.919 [pool-6-thread-1] INFO  o.s.i.v.b.j.l.v.SpringProcessConnectorOverJMX - close JMX connection to: service:jmx:rmi:///jndi/rmi://127.0.0.1:64291/jmxrmi
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:30.930
+!MESSAGE 19:45:30.929 [pool-6-thread-1] ERROR o.s.i.v.b.j.l.v.SpringProcessConnectorOverJMX - error closing the JMX connection for: service:jmx:rmi:///jndi/rmi://127.0.0.1:64291/jmxrmi
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:30.930
+!MESSAGE java.rmi.ConnectException: Connection refused to host: localhost; nested exception is: 
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:30.930
+!MESSAGE 	java.net.ConnectException: Connection refused: connect
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:30.930
+!MESSAGE 	at java.rmi/sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:625)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:30.930
+!MESSAGE 	at java.rmi/sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:217)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:30.930
+!MESSAGE 	at java.rmi/sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:204)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:30.931
+!MESSAGE 	at java.rmi/sun.rmi.server.UnicastRef.invoke(UnicastRef.java:134)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:30.931
+!MESSAGE 	at jdk.remoteref/jdk.jmx.remote.internal.rmi.PRef.invoke(Unknown Source)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:30.931
+!MESSAGE 	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl_Stub.close(RMIConnectionImpl_Stub.java:151)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:30.931
+!MESSAGE 	at java.management.rmi/javax.management.remote.rmi.RMIConnector.close(RMIConnector.java:507)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:30.932
+!MESSAGE 	at java.management.rmi/javax.management.remote.rmi.RMIConnector.close(RMIConnector.java:447)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:30.932
+!MESSAGE 	at org.springframework.ide.vscode.boot.java.livehover.v2.SpringProcessConnectorOverJMX.disconnect(SpringProcessConnectorOverJMX.java:205)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:30.932
+!MESSAGE 	at org.springframework.ide.vscode.boot.java.livehover.v2.SpringProcessConnectorService.lambda$scheduleDisconnect$5(SpringProcessConnectorService.java:200)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:30.932
+!MESSAGE 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:30.932
+!MESSAGE 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:30.933
+!MESSAGE 	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:30.933
+!MESSAGE 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:30.933
+!MESSAGE 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:30.933
+!MESSAGE 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:30.933
+!MESSAGE Caused by: java.net.ConnectException: Connection refused: connect
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:30.933
+!MESSAGE 	at java.base/sun.nio.ch.Net.connect0(Native Method)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:30.933
+!MESSAGE 	at java.base/sun.nio.ch.Net.connect(Net.java:589)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:30.934
+!MESSAGE 	at java.base/sun.nio.ch.Net.connect(Net.java:578)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:30.934
+!MESSAGE 	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:30.934
+!MESSAGE 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:30.934
+!MESSAGE 	at java.base/java.net.Socket.connect(Socket.java:751)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:30.935
+!MESSAGE 	at java.base/java.net.Socket.connect(Socket.java:686)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:30.935
+!MESSAGE 	at java.base/java.net.Socket.<init>(Socket.java:555)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:30.935
+!MESSAGE 	at java.base/java.net.Socket.<init>(Socket.java:324)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:30.935
+!MESSAGE 	at java.rmi/sun.rmi.transport.tcp.TCPDirectSocketFactory.createSocket(TCPDirectSocketFactory.java:40)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:30.936
+!MESSAGE 	at java.rmi/sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:619)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:30.936
+!MESSAGE 	... 15 common frames omitted
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:32.099
+!MESSAGE 19:45:32.068 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/RoleController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:32.223
+!MESSAGE 19:45:32.162 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/service/RoleService.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 19:45:32.224
+!MESSAGE 19:45:32.223 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/SmartServiceBookingAndManegmentSystemApplication.java
+!SESSION 2026-01-07 22:31:33.200 -----------------------------------------------
+eclipse.buildId=4.38.0.20251204-0849
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2026-01-07 22:31:45.491
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-01-07 22:31:57.541
+!MESSAGE Logback config file: D:\Smart Service Booking & Manegment System\backend\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.101.20251017-1242.xml
+
+!ENTRY org.eclipse.ui 2 0 2026-01-07 22:32:01.613
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-01-07 22:32:01.613
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2026-01-07 22:32:05.726
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-01-07 22:32:05.729
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 22:32:56.480
+!MESSAGE 22:32:56.477 [pool-2-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/SmartServiceBookingAndManegmentSystemApplication.java
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-01-07 22:32:58.233
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\daula'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 22:32:59.340
+!MESSAGE 22:32:58.900 [Simple-Language-Server main thread] INFO  o.s.i.v.b.jdt.ls.JdtLsProjectCache - INIT CLASSPATH LISTENER enableClasspath=true
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 22:32:59.342
+!MESSAGE 22:32:58.912 [Simple-Language-Server main thread] INFO  o.s.i.v.b.jdt.ls.JdtLsProjectCache - Enable classpath listener enabled = true current enablement = false
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 22:32:59.343
+!MESSAGE 22:32:58.913 [Simple-Language-Server main thread] INFO  o.s.i.v.b.jdt.ls.JdtLsProjectCache - Adding classpath listener enabled=true
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 22:32:59.343
+!MESSAGE 22:32:58.915 [Simple-Language-Server main thread] INFO  o.s.i.v.b.jdt.ls.JdtLsProjectCache - Project Observer is supported
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 22:33:00.956
+!MESSAGE 22:33:00.946 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleLanguageServer - Initialization completed after 28933 ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 22:33:00.961
+!MESSAGE 22:33:00.960 [Simple-Language-Server main thread] INFO  o.s.i.v.b.j.BootJavaLanguageServerComponents - update live process tracker settings - start
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 22:33:01.119
+!MESSAGE 22:33:01.118 [Simple-Language-Server main thread] INFO  o.s.i.v.b.j.l.v.SpringProcessConnectorRemote - updating settings for remote processses to track - start
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 22:33:01.140
+!MESSAGE 22:33:01.120 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - update settings of spring indexer - done
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 22:33:01.147
+!MESSAGE 22:33:01.142 [Simple-Language-Server main thread] INFO  o.s.i.v.b.j.l.v.SpringProcessConnectorRemote - updating settings for remote processses to track - start
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 22:33:01.352
+!MESSAGE 22:33:01.335 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.SpringFactoriesIndexer - scan factories files for symbols for project: Smart_Service_Booking_and_Manegment_System - no. of files: 0
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 22:33:01.378
+!MESSAGE 22:33:01.376 [pool-4-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/SmartServiceBookingAndManegmentSystemApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 22:33:01.476
+!MESSAGE 22:33:01.454 [pool-5-thread-1] INFO  o.s.i.v.b.j.u.SpringFactoriesIndexer - scan factories files for symbols for project: Smart_Service_Booking_and_Manegment_System took ms: 128
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 22:33:02.859
+!MESSAGE 22:33:02.856 [Project-Reconciler-1] INFO  o.s.i.v.boot.app.RestTemplateFactory - Environment size: 43
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 22:33:04.273
+!MESSAGE 22:33:03.861 [pool-5-thread-1] INFO  o.s.i.v.b.j.utils.SpringIndexerJava - scan java files restored cached dependency data: 0 - no. of cached dependencies: {}
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 22:33:08.707
+!MESSAGE 22:33:04.894 [pool-2-thread-5] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/SmartServiceBookingAndManegmentSystemApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 22:33:11.164
+!MESSAGE 22:33:11.162 [Project-Reconciler-1] INFO  o.s.i.v.boot.app.RestTemplateFactory - Env var https_proxy: null
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 22:33:14.732
+!MESSAGE 22:33:13.024 [Project-Reconciler-1] INFO  o.s.i.v.b.v.BootVersionValidationEngine - validating Spring Boot version on project: Smart_Service_Booking_and_Manegment_System done in 10629ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 22:33:14.734
+!MESSAGE 22:33:14.732 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/SmartServiceBookingAndManegmentSystemApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:41:15.624
+!MESSAGE 23:41:15.606 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 1
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:41:15.727
+!MESSAGE 23:41:15.726 [pool-2-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:41:15.746
+!MESSAGE 23:41:15.740 [pool-2-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:41:16.205
+!MESSAGE 23:41:16.204 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:41:17.095
+!MESSAGE 23:41:16.219 [pool-2-thread-11] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:41:17.097
+!MESSAGE 23:41:17.096 [pool-2-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:41:17.101
+!MESSAGE 23:41:17.095 [pool-2-thread-12] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:41:17.108
+!MESSAGE 23:41:17.102 [pool-2-thread-10] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:41:17.129
+!MESSAGE 23:41:17.119 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:41:17.210
+!MESSAGE 23:41:17.209 [Reconciler-1] INFO  o.s.i.v.b.j.r.JdtReconciler - reconciling (JDT): file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/UserController.java done in 1005ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:42:00.473
+!MESSAGE 23:42:00.461 [pool-13-thread-1] INFO  o.s.i.v.b.j.l.v.SpringProcessConnectorRemote - Creating RemoteStringBootApp: RemoteBootAppData [jmxurl=service:jmx:rmi:///jndi/rmi://127.0.0.1:52009/jmxrmi, host=127.0.0.1, urlScheme=http, port=null, manualConnect=false, keepChecking=true, processId=24704, processName=com.service_booking.SmartServiceBookingAndManegmentSystemApplication. projectName=Smart_Service_Booking_and_Manegment_System]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:42:00.773
+!MESSAGE 23:42:00.493 [pool-13-thread-1] INFO  o.s.i.v.b.j.l.v.SpringProcessConnectorRemote - updating settings for remote processses to track - done
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:42:00.785
+!MESSAGE 23:42:00.785 [pool-6-thread-2] INFO  o.s.i.v.b.j.l.v.SpringProcessConnectorOverJMX - retrieve live data from: service:jmx:rmi:///jndi/rmi://127.0.0.1:52009/jmxrmi
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:42:01.656
+!MESSAGE 23:42:01.571 [pool-7-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/UserController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:42:01.808
+!MESSAGE 23:42:01.668 [pool-4-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/SmartServiceBookingAndManegmentSystemApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:42:01.813
+!MESSAGE 23:42:01.810 [pool-4-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/SmartServiceBookingAndManegmentSystemApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:42:01.848
+!MESSAGE 23:42:01.816 [pool-2-thread-9] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - hover computation done in 22ms
+
+!ENTRY org.eclipse.jface 2 0 2026-01-07 23:45:00.998
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2026-01-07 23:45:00.998
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:50:50.676
+!MESSAGE 23:50:50.670 [pool-2-thread-19] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:50:50.959
+!MESSAGE 23:50:50.902 [pool-4-thread-4] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:00.804
+!MESSAGE 23:56:00.679 [pool-4-thread-5] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:00.832
+!MESSAGE 23:56:00.820 [pool-2-thread-20] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:01.381
+!MESSAGE 23:56:01.380 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 2
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:01.397
+!MESSAGE 23:56:01.392 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 10ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:01.431
+!MESSAGE 23:56:01.430 [pool-4-thread-5] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:01.616
+!MESSAGE 23:56:01.610 [pool-2-thread-20] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:01.619
+!MESSAGE 23:56:01.619 [pool-2-thread-21] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:01.905
+!MESSAGE 23:56:01.896 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:05.441
+!MESSAGE 23:56:05.436 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file changed event: [file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:08.081
+!MESSAGE 23:56:05.459 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - Update document [file changed]: file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 23:56:08.404
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 23:56:08.405
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 23:56:08.406
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 23:56:08.407
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:08.506
+!MESSAGE 23:56:08.506 [pool-2-thread-21] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:08.515
+!MESSAGE 23:56:08.515 [pool-4-thread-5] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:08.518
+!MESSAGE 23:56:08.518 [pool-2-thread-20] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:08.544
+!MESSAGE 23:56:08.537 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file changed event: [file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/target/classes/application.properties]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:08.768
+!MESSAGE 23:56:08.766 [pool-4-thread-5] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:09.561
+!MESSAGE 23:56:08.769 [pool-2-thread-21] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:09.569
+!MESSAGE 23:56:09.566 [pool-2-thread-21] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:18.330
+!MESSAGE 23:56:09.569 [pool-2-thread-20] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:18.342
+!MESSAGE 23:56:18.338 [pool-7-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:18.426
+!MESSAGE 23:56:18.423 [pool-4-thread-5] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:18.676
+!MESSAGE 23:56:18.675 [pool-2-thread-20] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:18.679
+!MESSAGE 23:56:18.678 [pool-2-thread-21] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:18.842
+!MESSAGE 23:56:18.835 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:19.791
+!MESSAGE 23:56:19.751 [pool-2-thread-21] INFO  o.s.i.v.boot.app.SpringSymbolIndex - Update document [didSave event]: file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:19.932
+!MESSAGE 23:56:19.931 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file changed event: [file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 23:56:20.327
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 23:56:20.328
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 23:56:20.329
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 23:56:20.330
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:20.421
+!MESSAGE 23:56:19.934 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - Update document [file changed]: file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:20.714
+!MESSAGE 23:56:20.532 [ForkJoinPool.commonPool-worker-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Removing and cleaning up name env for project file:/D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:21.043
+!MESSAGE 23:56:21.023 [pool-2-thread-21] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:21.077
+!MESSAGE 23:56:21.045 [pool-4-thread-5] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Creating name env for project 'Smart_Service_Booking_and_Manegment_System'
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:21.184
+!MESSAGE 23:56:21.183 [pool-4-thread-5] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:37.407
+!MESSAGE 23:56:37.406 [pool-2-thread-21] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:39.106
+!MESSAGE 23:56:37.411 [pool-2-thread-21] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - hover computation done in 8ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:39.110
+!MESSAGE 23:56:39.108 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 3ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:39.246
+!MESSAGE 23:56:39.232 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:39.247
+!MESSAGE 23:56:39.245 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 13ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:39.553
+!MESSAGE 23:56:39.546 [pool-2-thread-21] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:39.576
+!MESSAGE 23:56:39.555 [pool-4-thread-5] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:39.588
+!MESSAGE 23:56:39.577 [pool-7-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:39.750
+!MESSAGE 23:56:39.748 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:41.987
+!MESSAGE 23:56:39.762 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:41.997
+!MESSAGE 23:56:41.989 [pool-2-thread-21] INFO  o.s.i.v.c.l.c.CompositeCompletionEngine - languageId = LanguageId [java]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:44.808
+!MESSAGE 23:56:44.804 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:44.904
+!MESSAGE 23:56:44.903 [pool-4-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:45.102
+!MESSAGE 23:56:45.098 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 7
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:45.126
+!MESSAGE 23:56:45.104 [pool-7-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:45.324
+!MESSAGE 23:56:45.323 [pool-2-thread-21] INFO  o.s.i.v.boot.app.SpringSymbolIndex - Update document [didSave event]: file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:45.353
+!MESSAGE InterruptedException
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.asJavaProposals(LSJavaCompletionProposalComputer.java:82)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.computeCompletionProposals(LSJavaCompletionProposalComputer.java:54)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.computeCompletionProposals(CompletionProposalComputerDescriptor.java:353)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.computeCompletionProposals(CompletionProposalCategory.java:340)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.collectProposals(ContentAssistProcessor.java:332)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.computeCompletionProposals(ContentAssistProcessor.java:288)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$10(AsyncCompletionProposalPopup.java:385)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$9(AsyncCompletionProposalPopup.java:384)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$11(AsyncCompletionProposalPopup.java:419)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 23:56:45.450
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 23:56:45.451
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 23:56:45.452
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 23:56:45.452
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:45.475
+!MESSAGE 23:56:45.469 [pool-7-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:45.476
+!MESSAGE 23:56:45.475 [pool-2-thread-21] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - Starting completion handling for: file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:45.478
+!MESSAGE 23:56:45.477 [pool-2-thread-21] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:45.481
+!MESSAGE 23:56:45.480 [pool-2-thread-21] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:45.547
+!MESSAGE 23:56:45.510 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file changed event: [file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:45.622
+!MESSAGE 23:56:45.571 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file changed event: [file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/target/classes/application.properties, file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/target/classes/com/service_booking/controller/AuthController.class]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:45.641
+!MESSAGE 23:56:45.640 [pool-2-thread-20] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:45.767
+!MESSAGE 23:56:45.642 [pool-2-thread-20] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:45.787
+!MESSAGE 23:56:45.776 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:45.866
+!MESSAGE 23:56:45.866 [pool-4-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:45.985
+!MESSAGE 23:56:45.894 [pool-2-thread-21] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:46.121
+!MESSAGE 23:56:45.986 [pool-4-thread-5] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:46.123
+!MESSAGE 23:56:46.122 [pool-7-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:46.334
+!MESSAGE 23:56:46.141 [pool-7-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:46.478
+!MESSAGE 23:56:46.473 [pool-2-thread-20] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:46.493
+!MESSAGE 23:56:46.492 [pool-2-thread-21] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:46.498
+!MESSAGE 23:56:46.495 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:46.605
+!MESSAGE 23:56:46.510 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:46.611
+!MESSAGE 23:56:46.608 [pool-7-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:46.712
+!MESSAGE 23:56:46.710 [pool-4-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:46.816
+!MESSAGE 23:56:46.811 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 10
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:46.851
+!MESSAGE 23:56:46.849 [pool-4-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:46.989
+!MESSAGE 23:56:46.988 [pool-2-thread-21] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:46.993
+!MESSAGE 23:56:46.992 [pool-2-thread-20] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:47.317
+!MESSAGE 23:56:46.993 [pool-2-thread-20] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:48.477
+!MESSAGE 23:56:47.319 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:48.502
+!MESSAGE 23:56:48.480 [pool-4-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:48.719
+!MESSAGE 23:56:48.719 [pool-2-thread-21] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:48.722
+!MESSAGE 23:56:48.721 [pool-2-thread-20] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:48.980
+!MESSAGE 23:56:48.977 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:49.376
+!MESSAGE 23:56:49.376 [pool-2-thread-21] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - completion handling - retrieve lastest snapshot for: file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:49.379
+!MESSAGE 23:56:49.377 [pool-2-thread-21] INFO  o.s.i.v.c.l.c.CompositeCompletionEngine - languageId = LanguageId [java]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:49.381
+!MESSAGE 23:56:49.380 [pool-2-thread-21] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:50.346
+!MESSAGE 23:56:50.346 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 12
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:50.347
+!MESSAGE 23:56:50.347 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:50.349
+!MESSAGE 23:56:50.348 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 2ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:50.350
+!MESSAGE 23:56:50.349 [pool-7-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:50.351
+!MESSAGE 23:56:50.350 [pool-4-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:50.382
+!MESSAGE 23:56:50.381 [pool-4-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:50.855
+!MESSAGE 23:56:50.482 [pool-2-thread-21] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:54.933
+!MESSAGE 23:56:50.859 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:54.993
+!MESSAGE 23:56:54.989 [pool-4-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:55.140
+!MESSAGE 23:56:55.139 [pool-2-thread-21] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:55.151
+!MESSAGE 23:56:55.145 [pool-2-thread-21] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:55.152
+!MESSAGE 23:56:55.152 [pool-2-thread-21] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:57.071
+!MESSAGE 23:56:55.439 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:57.073
+!MESSAGE 23:56:57.069 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - doc save event: file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:57.209
+!MESSAGE 23:56:57.112 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - Update document [file changed]: file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 23:56:57.368
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 23:56:57.369
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 23:56:57.370
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 23:56:57.371
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:58.094
+!MESSAGE 23:56:57.741 [ForkJoinPool.commonPool-worker-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Removing and cleaning up name env for project file:/D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:58.126
+!MESSAGE 23:56:58.096 [pool-2-thread-20] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:58.321
+!MESSAGE 23:56:58.320 [pool-4-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:56:58.323
+!MESSAGE 23:56:58.321 [pool-2-thread-20] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:57:12.549
+!MESSAGE 23:56:58.363 [pool-5-thread-1] INFO  o.s.i.v.b.j.utils.SpringIndexerJava - Finished scanning affected files [D:\Smart Service Booking & Manegment System\backend\Smart_Service_Booking_and_Manegment_System\src\main\java\com\service_booking\controller\AuthController.java]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:57:12.557
+!MESSAGE 23:57:12.554 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:57:12.565
+!MESSAGE 23:57:12.562 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 14ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:57:12.579
+!MESSAGE 23:57:12.576 [pool-7-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:57:12.614
+!MESSAGE 23:57:12.614 [pool-4-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:57:12.732
+!MESSAGE 23:57:12.625 [pool-7-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:57:12.736
+!MESSAGE 23:57:12.733 [pool-2-thread-21] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:57:12.741
+!MESSAGE 23:57:12.740 [pool-2-thread-21] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:57:13.056
+!MESSAGE 23:57:13.052 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:57:13.109
+!MESSAGE 23:57:13.058 [pool-4-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:57:13.283
+!MESSAGE 23:57:13.282 [pool-2-thread-21] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:57:13.300
+!MESSAGE 23:57:13.285 [pool-2-thread-21] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:57:13.301
+!MESSAGE 23:57:13.300 [pool-2-thread-21] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:57:13.559
+!MESSAGE 23:57:13.302 [pool-2-thread-21] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:57:13.956
+!MESSAGE 23:57:13.568 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:57:13.959
+!MESSAGE 23:57:13.958 [pool-4-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:57:14.039
+!MESSAGE 23:57:14.035 [pool-4-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:57:14.141
+!MESSAGE 23:57:14.140 [pool-2-thread-21] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:57:14.149
+!MESSAGE 23:57:14.145 [pool-2-thread-21] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:57:14.150
+!MESSAGE 23:57:14.149 [pool-2-thread-20] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:57:14.838
+!MESSAGE 23:57:14.462 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:57:14.840
+!MESSAGE 23:57:14.837 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 17
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:57:14.918
+!MESSAGE 23:57:14.916 [pool-4-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:57:15.234
+!MESSAGE 23:57:15.226 [pool-2-thread-20] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:57:15.341
+!MESSAGE 23:57:15.340 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:57:15.553
+!MESSAGE 23:57:15.548 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:57:15.654
+!MESSAGE 23:57:15.555 [pool-4-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:57:15.694
+!MESSAGE 23:57:15.693 [pool-2-thread-21] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:57:15.699
+!MESSAGE 23:57:15.696 [pool-2-thread-21] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:57:15.700
+!MESSAGE 23:57:15.700 [pool-2-thread-20] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:57:16.061
+!MESSAGE 23:57:16.054 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:57:16.222
+!MESSAGE 23:57:16.221 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:57:16.224
+!MESSAGE 23:57:16.223 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 3ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:57:16.252
+!MESSAGE 23:57:16.225 [pool-7-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:57:16.378
+!MESSAGE 23:57:16.375 [pool-2-thread-20] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:57:16.389
+!MESSAGE 23:57:16.388 [pool-2-thread-20] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:57:16.726
+!MESSAGE 23:57:16.389 [pool-2-thread-20] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:57:18.950
+!MESSAGE 23:57:16.728 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:57:18.960
+!MESSAGE 23:57:18.953 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - Update document [file changed]: file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 23:57:19.193
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 23:57:19.193
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 23:57:19.194
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-07 23:57:19.194
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:57:19.289
+!MESSAGE 23:57:19.285 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file changed event: [file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/target/classes/application.properties, file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/target/classes/com/service_booking/controller/AuthController.class]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:57:19.587
+!MESSAGE 23:57:19.446 [ForkJoinPool.commonPool-worker-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Removing and cleaning up name env for project file:/D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:57:19.829
+!MESSAGE 23:57:19.827 [pool-4-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:57:20.006
+!MESSAGE 23:57:20.005 [pool-4-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:59:38.931
+!MESSAGE 23:59:38.928 [pool-2-thread-22] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-07 23:59:38.950
+!MESSAGE 23:59:38.948 [pool-4-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-08 00:10:10.930
+!MESSAGE 23:59:38.988 [pool-4-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-08 00:10:10.932
+!MESSAGE 23:59:38.990 [pool-2-thread-22] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-08 00:10:10.932
+!MESSAGE 00:10:10.927 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/Smart%20Service%20Booking%20&%20Manegment%20System/backend/Smart_Service_Booking_and_Manegment_System/src/main/java/com/service_booking/controller/AuthController.java

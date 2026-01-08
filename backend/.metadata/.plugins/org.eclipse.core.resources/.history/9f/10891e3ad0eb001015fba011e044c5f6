@@ -1,0 +1,14 @@
+package com.service_booking.service;
+
+import org.springframework.stereotype.Service;
+
+import com.service_booking.entity.Role;
+
+@Service
+public class RoleService {
+	
+	public Role addrole() {
+		
+	}
+
+}

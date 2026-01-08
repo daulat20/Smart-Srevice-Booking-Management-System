@@ -1,0 +1,40 @@
+package com.service_booking.service;
+
+import java.time.LocalDateTime;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.service_booking.entity.Booking;
+import com.service_booking.entity.User;
+import com.service_booking.repository.BookingRepository;
+
+@Service
+public class BookingService {
+
+    @Autowired
+    private BookingRepository bookingRepository;
+
+    public Booking createBooking(User user, Services services) {
+
+        Booking booking = new Booking();
+        booking.setUser(user);
+        booking.setService(services);
+        booking.setBookingDate(LocalDateTime.now());
+        booking.setStatus("PENDING");
+
+        return bookingRepository.save(booking);
+    }
+
+    public List<Booking> getBookingsByUser(User user) {
+        return bookingRepository.findByUser(user);
+    }
+
+    public Booking updateBookingStatus(Long bookingId, String status) {
+        Booking booking = bookingRepository.findById(bookingId)
+                .orElseThrow(() -> new RuntimeException("Booking not found"));
+        booking.setStatus(status);
+        return bookingRepository.save(booking);
+    }
+}

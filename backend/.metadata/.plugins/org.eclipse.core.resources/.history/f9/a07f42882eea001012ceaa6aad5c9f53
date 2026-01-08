@@ -1,0 +1,33 @@
+package com.servicebooking.service;
+
+import com.servicebooking.entity.Provider;
+import com.servicebooking.entity.User;
+import com.servicebooking.repository.ProviderRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+
+@Service
+public class ProviderService {
+
+    @Autowired
+    private ProviderRepository providerRepository;
+
+    public Provider registerProvider(Provider provider, User user) {
+        provider.setUser(user);
+        provider.setApproved(false); // admin approval required
+        return providerRepository.save(provider);
+    }
+
+    public List<Provider> getApprovedProviders() {
+        return providerRepository.findByApproved(true);
+    }
+
+    public Provider approveProvider(Long providerId) {
+        Provider provider = providerRepository.findById(providerId)
+                .orElseThrow(() -> new RuntimeException("Provider not found"));
+        provider.setApproved(true);
+        return providerRepository.save(provider);
+    }
+}

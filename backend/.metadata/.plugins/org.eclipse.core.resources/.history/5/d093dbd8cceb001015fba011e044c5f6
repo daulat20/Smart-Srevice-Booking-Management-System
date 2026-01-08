@@ -1,0 +1,97 @@
+package com.service_booking.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.service_booking.dto.UserRequestDTO;
+import com.service_booking.dto.UserResponseDTO;
+import com.service_booking.entity.Role;
+import com.service_booking.entity.User;
+import com.service_booking.exeception.UserNotFoundException;
+import com.service_booking.repository.RoleRepository;
+import com.service_booking.repository.UserRepository;
+
+@Service
+public class UserService {
+
+	private final UserRepository userRepository;
+	private final RoleRepository roleRepository;
+
+	public UserService(UserRepository userRepository, RoleRepository roleRepository) {
+		this.userRepository = userRepository;
+		this.roleRepository = roleRepository;
+	}
+
+	public UserResponseDTO createUser(UserRequestDTO dto) {
+
+		if (userRepository.findByEmail(dto.getEmail()).isPresent()) {
+			throw new RuntimeException("Email already exists");
+		}
+
+		Role role = roleRepository.findByName(dto.getRole()).orElseThrow(() -> new RuntimeException("Role not found"));
+
+		User user = new User();
+		user.setFirstname(dto.getFirstname());
+		user.setLastname(dto.getFirstname());
+		user.setEmail(dto.getEmail());
+		user.setPassword(passwordEncoder.encode(dto.getPassword()));
+		user.setRole(role); // ✅ set Role entity
+
+		User saved = userRepository.save(user);
+
+		return mapToResponse(saved);
+	}
+
+	private UserResponseDTO mapToResponse(User user) {
+		UserResponseDTO dto = new UserResponseDTO();
+		dto.setId(user.getId());
+		dto.setName(user.getName());
+		dto.setEmail(user.getEmail());
+		dto.setRole(user.getRole().getName());
+		return dto;
+	}
+
+	// 🔹 SELECT BY ID
+	public UserResponseDTO getUserById(Long id) {
+
+		User user = userRepository.findById(id).orElseThrow(() -> new UserNotFoundException("User not found"));
+
+		return mapToResponse(user);
+	}
+
+	// 🔹 SELECT ALL
+	public List<UserResponseDTO> getAllUsers() {
+		return userRepository.findAll().stream().map(this::mapToResponse).toList();
+	}
+
+	// 🔹 UPDATE
+	public UserResponseDTO updateUser(Long id, UserRequestDTO dto) {
+
+		User user = userRepository.findById(id).orElseThrow(() -> new UserNotFoundException("User not found"));
+
+		user.setFirstname(dto.getFirstname());
+		user.setRole(dto.getRole());
+
+		User updated = userRepository.save(user);
+		return mapToResponse(updated);
+	}
+
+	// 🔹 DELETE
+	public void deleteUser(Long id) {
+
+		User user = userRepository.findById(id).orElseThrow(() -> new UserNotFoundException("User not found"));
+
+		userRepository.delete(user);
+	}
+
+	// 🔁 MAPPER
+	private UserResponseDTO mapToResponse(User user) {
+		UserResponseDTO dto = new UserResponseDTO();
+		dto.setId(user.getId());
+		dto.setFirstname(user.getFirstname());
+		dto.setEmail(user.getEmail());
+		dto.setRole(user.getRole());
+		return dto;
+	}
+}

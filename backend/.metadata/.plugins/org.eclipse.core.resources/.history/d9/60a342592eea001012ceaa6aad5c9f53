@@ -1,0 +1,33 @@
+package com.servicebooking.service;
+
+import com.servicebooking.entity.Role;
+import com.servicebooking.entity.User;
+import com.servicebooking.repository.RoleRepository;
+import com.servicebooking.repository.UserRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
+public class AuthService {
+
+    @Autowired
+    private UserRepository userRepository;
+
+    @Autowired
+    private RoleRepository roleRepository;
+
+    public User register(User user, String roleName) {
+
+        Role role = roleRepository.findByName(roleName)
+                .orElseThrow(() -> new RuntimeException("Role not found"));
+
+        user.setRole(role);
+        return userRepository.save(user);
+    }
+
+    public User login(String email, String password) {
+
+        return userRepository.findByEmailAndPassword(email, password)
+                .orElseThrow(() -> new RuntimeException("Invalid email or password"));
+    }
+}

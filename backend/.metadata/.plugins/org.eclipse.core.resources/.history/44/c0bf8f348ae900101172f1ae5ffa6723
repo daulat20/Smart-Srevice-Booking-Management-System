@@ -1,0 +1,23 @@
+package com.service_booking.entity;
+
+import jakarta.persistence.*;
+
+@Entity
+@Table(name = "services")
+public class Service {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    private String serviceName;
+    private String description;
+    private double price;
+
+    @ManyToOne
+    @JoinColumn(name = "provider_id")
+    private Provider provider;
+
+    public Service() {}
+
+}

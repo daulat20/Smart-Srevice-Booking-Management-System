@@ -1,0 +1,18 @@
+package com.service_booking.controller;
+
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.service_booking.entity.Role;
+import com.service_booking.service.RoleService;
+
+@RestController
+public class RoleController {
+	
+	RoleService service;
+
+	@PostMapping("/addrole")
+	public Role addrole(Role role) {
+		return service.register(role);
+	}
+}

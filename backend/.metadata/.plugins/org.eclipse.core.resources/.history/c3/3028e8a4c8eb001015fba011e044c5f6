@@ -1,0 +1,5 @@
+package com.service_booking.dto;
+
+public class UserRequestDTO {
+
+}

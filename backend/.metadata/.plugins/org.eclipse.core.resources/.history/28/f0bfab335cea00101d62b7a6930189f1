@@ -1,0 +1,44 @@
+package com.service_booking.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.service_booking.entity.Provider;
+import com.service_booking.entity.User;
+import com.service_booking.service.ProviderService;
+
+@RestController
+@RequestMapping("/api/providers")
+@CrossOrigin("*")
+public class ProviderController {
+
+    @Autowired
+    private ProviderService providerService;
+
+    @PostMapping("/provider")
+    public Provider addProvider(@RequestParam Long userId,
+                                @RequestBody Provider provider) {
+        return providerService.registerProvider(provider,userId);
+    }
+
+
+    @GetMapping("/approved")
+    public List<Provider> approvedProviders() {
+        return providerService.getApprovedProviders();
+    }
+
+    @PutMapping("/approve/{id}")
+    public Provider approve(@PathVariable Long id) {
+        return providerService.approveProvider(id);
+    }
+}

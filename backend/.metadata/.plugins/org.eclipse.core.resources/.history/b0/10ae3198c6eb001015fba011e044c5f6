@@ -1,0 +1,17 @@
+package com.service_booking.repository;
+
+import com.service_booking.entity.Provider;
+import com.service_booking.entity.User;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.List;
+import java.util.Optional;
+
+public interface ProviderRepository extends JpaRepository<Provider, Long> {
+
+    Optional<Provider> findByUser(User user);
+
+//    List<Provider> findByApproved(boolean approved);
+//
+//    List<Provider> findByCity(String city);
+}

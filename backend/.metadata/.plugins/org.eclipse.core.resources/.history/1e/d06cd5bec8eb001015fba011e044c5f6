@@ -1,0 +1,15 @@
+package com.service_booking.dto;
+
+import jakarta.persistence.Column;
+
+public class UserRequestDTO {
+	
+	 private String firstname;
+	 private String lastname;
+	 @Column(unique = true, nullable = false)
+	    private String email;
+	    private String password;
+	    private String role;
+	
+
+}

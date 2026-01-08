@@ -1,0 +1,60 @@
+package com.service_booking.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.service_booking.dto.ProviderRequestDTO;
+import com.service_booking.entity.Provider;
+import com.service_booking.entity.User;
+import com.service_booking.exeception.ProviderAlreadyExistsException;
+import com.service_booking.repository.ProviderRepository;
+import com.service_booking.repository.UserRepository;
+
+@Service
+public class ProviderService {
+
+    private final ProviderRepository providerRepository;
+    private final UserRepository userRepository;
+
+    public ProviderService(ProviderRepository providerRepository,
+                           UserRepository userRepository) {
+        this.providerRepository = providerRepository;
+        this.userRepository = userRepository;
+    }
+
+    public Provider registerProvider(ProviderRequestDTO dto) {
+
+        User user = userRepository.findById(dto.getUserId())
+                .orElseThrow(() -> new RuntimeException("User not found"));
+
+        // 🔴 IMPORTANT CHECK
+        if (providerRepository.findByUser(user).isPresent()) {
+            throw new ProviderAlreadyExistsException(
+                    "Provider already registered for this user"
+            );
+        }
+
+        Provider provider = new Provider();
+        provider.setProviderName(dto.getProviderName());
+        provider.setContact(dto.getContact());
+        provider.setCity(dto.getCity());
+        provider.setUser(user);
+        provider.setApproved(false); // admin approval required
+
+        return providerRepository.save(provider);
+    }
+}
+
+
+    public List<Provider> getApprovedProviders() {
+        return providerRepository.findByApproved(true);
+    }
+
+    public Provider approveProvider(Long providerId) {
+        Provider provider = providerRepository.findById(providerId)
+                .orElseThrow(() -> new RuntimeException("Provider not found"));
+        provider.setApproved(true);
+        return providerRepository.save(provider);
+    }
+}

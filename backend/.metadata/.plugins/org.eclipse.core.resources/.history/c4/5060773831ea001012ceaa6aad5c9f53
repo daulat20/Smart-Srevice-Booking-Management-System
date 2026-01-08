@@ -1,0 +1,32 @@
+package com.service_booking.service;
+
+import com.servicebooking.entity.Provider;
+import com.servicebooking.entity.Review;
+import com.servicebooking.entity.User;
+import com.servicebooking.repository.ReviewRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+
+@Service
+public class ReviewService {
+
+    @Autowired
+    private ReviewRepository reviewRepository;
+
+    public Review addReview(User user, Provider provider, int rating, String comment) {
+
+        Review review = new Review();
+        review.setUser(user);
+        review.setProvider(provider);
+        review.setRating(rating);
+        review.setComment(comment);
+
+        return reviewRepository.save(review);
+    }
+
+    public List<Review> getReviewsByProvider(Provider provider) {
+        return reviewRepository.findByProvider(provider);
+    }
+}

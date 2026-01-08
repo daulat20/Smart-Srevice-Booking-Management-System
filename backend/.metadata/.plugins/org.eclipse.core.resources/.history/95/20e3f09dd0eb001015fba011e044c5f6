@@ -1,0 +1,18 @@
+package com.service_booking.service;
+
+import org.springframework.stereotype.Service;
+
+import com.service_booking.entity.Role;
+import com.service_booking.repository.RoleRepository;
+
+@Service
+public class RoleService {
+	
+	RoleRepository role;
+	
+	 public Role register(Role user) {
+
+	        return role.save(user);
+	    }
+
+}

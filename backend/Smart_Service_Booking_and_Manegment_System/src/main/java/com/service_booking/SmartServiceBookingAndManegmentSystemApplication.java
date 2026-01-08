@@ -1,0 +1,14 @@
+package com.service_booking;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SmartServiceBookingAndManegmentSystemApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SmartServiceBookingAndManegmentSystemApplication.class, args);
+		System.err.println("APPLICATION STARTED");
+	}
+
+}

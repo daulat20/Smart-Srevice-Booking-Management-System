@@ -1,0 +1,30 @@
+package com.service_booking.controller;
+
+@RestController
+@RequestMapping("/api/providers")
+@CrossOrigin("*")
+public class ProviderController {
+
+    @Autowired
+    private ProviderService providerService;
+
+    @PostMapping("/register")
+    public Provider registerProvider(@RequestBody Provider provider,
+                                     @RequestParam Long userId) {
+
+        User user = new User();
+        user.setId(userId);
+
+        return providerService.registerProvider(provider, user);
+    }
+
+    @GetMapping("/approved")
+    public List<Provider> approvedProviders() {
+        return providerService.getApprovedProviders();
+    }
+
+    @PutMapping("/approve/{id}")
+    public Provider approve(@PathVariable Long id) {
+        return providerService.approveProvider(id);
+    }
+}

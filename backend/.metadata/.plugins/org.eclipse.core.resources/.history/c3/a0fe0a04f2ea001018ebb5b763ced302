@@ -1,0 +1,39 @@
+package com.service_booking.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.service_booking.entity.Provider;
+import com.service_booking.entity.User;
+import com.service_booking.repository.ProviderRepository;
+
+@Service
+public class ProviderService {
+
+    @Autowired
+    private ProviderRepository providerRepository;
+
+    public Provider registerProvider(Provider provider, User user) {
+    	 if (provider == null || user == null) {
+    	        throw new IllegalArgumentException("Provider or User cannot be null");
+    	    }
+
+    	    provider.setUser(user);
+    	    provider.setApproved(false); 
+
+    	    return providerRepository.save(provider);
+    }
+
+    public List<Provider> getApprovedProviders() {
+        return providerRepository.findByApproved(true);
+    }
+
+    public Provider approveProvider(Long providerId) {
+        Provider provider = providerRepository.findById(providerId)
+                .orElseThrow(() -> new RuntimeException("Provider not found"));
+        provider.setApproved(true);
+        return providerRepository.save(provider);
+    }
+}

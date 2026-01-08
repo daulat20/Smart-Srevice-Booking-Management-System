@@ -1,0 +1,11 @@
+package com.service_booking.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import com.service_booking.entity.Role;
+
+@RestController
+public class RoleController {
+
+	public Role
+}

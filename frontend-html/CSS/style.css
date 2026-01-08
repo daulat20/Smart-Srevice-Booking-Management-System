@@ -1,0 +1,141 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: "Poppins", "Segoe UI", sans-serif;
+}
+
+/* FULL SCREEN BACKGROUND */
+body {
+    min-height: 100vh;
+
+    background:
+        linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+        url("backgroundimg.png");
+
+    background-size: cover;        /* FULL SCREEN IMAGE */
+    background-position: left center; /* IMAGE ON LEFT */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: flex-end;     /* CARD ON RIGHT */
+    align-items: center;
+
+    padding-right: 80px;           /* SPACE FROM RIGHT */
+}
+
+/* GLASS CARD */
+.container {
+    width: 100%;
+    max-width: 380px;
+    padding: 35px;
+
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.45);
+
+    animation: slideUp 0.7s ease;
+}
+
+/* TITLE */
+.container h2 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 25px;
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+
+/* INPUTS */
+.container input {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 14px;
+
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+    outline: none;
+}
+
+.container input:focus {
+    box-shadow: 0 0 0 2px #667eea;
+}
+
+/* BUTTON */
+.container button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 8px;
+
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #fff;
+
+    border: none;
+    border-radius: 8px;
+
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.container button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(102,126,234,0.5);
+}
+
+/* TEXT & LINKS */
+.container p {
+    text-align: center;
+    margin-top: 18px;
+    color: #eee;
+    font-size: 14px;
+}
+
+.container a {
+    color: #ffd369;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}
+
+/* ANIMATION */
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+    body {
+        justify-content: center;
+        padding-right: 0;
+        background-position: center;
+        background-attachment: scroll;
+    }
+
+    .container {
+        margin: 20px;
+    }
+}

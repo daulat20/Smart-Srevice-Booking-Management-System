@@ -1,0 +1,25 @@
+package com.service_booking.service;
+
+import org.springframework.stereotype.Service;
+
+import com.service_booking.entity.Role;
+import com.service_booking.repository.RoleRepository;
+
+@Service
+public class RoleService {
+	
+	RoleRepository role;
+	
+	 public Role register(Role user) {
+
+	       
+	        // Fetch role from DB to ensure it exists
+	        Role role = roleRepository.findById(user.getRole().getId())
+	                .orElseThrow(() -> new RuntimeException("Invalid role id"));
+
+	        user.setRole(role);
+
+	        return userRepository.save(user);
+	    }
+
+}

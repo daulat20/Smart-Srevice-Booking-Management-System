@@ -1,0 +1,17 @@
+package com.servic_booking.repository;
+
+import com.servicebooking.entity.Booking;
+import com.servicebooking.entity.User;
+import com.servicebooking.entity.Service;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.List;
+
+public interface BookingRepository extends JpaRepository<Booking, Long> {
+
+    List<Booking> findByUser(User user);
+
+    List<Booking> findByService(Service service);
+
+    List<Booking> findByStatus(String status);
+}

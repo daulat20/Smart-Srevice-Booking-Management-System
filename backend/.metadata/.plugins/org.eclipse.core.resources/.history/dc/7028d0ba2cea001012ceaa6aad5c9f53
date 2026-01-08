@@ -1,0 +1,14 @@
+package com.service_booking.repository;
+
+import com.service_booking.entity.Service;
+import com.servicebooking.entity.Provider;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.List;
+
+public interface ServiceRepository extends JpaRepository<Service, Long> {
+
+    List<Service> findByProvider(Provider provider);
+
+    List<Service> findByServiceNameContainingIgnoreCase(String serviceName);
+}
